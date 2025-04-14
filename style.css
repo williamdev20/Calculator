@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Cabin", sans-serif;
+}
+
+body {
+  background-color: #F1F0EA;
+}
+
+h1 {
+  text-align: center;
+}
+
+div {
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+button {
+  background-color: #F4F0EA;
+  width: 70px;
+  height: 70px;
+  border: none;
+  font-size: 25px;
+  position: relative;
+  bottom: 49px;
+}
+
+button:hover {
+  background-color: greenyellow;
+  width: 70px;
+}
+
+#container {
+  background-color: #e2e0dd;
+  width: 350px;
+  height: 446px;
+  border-radius: 10px;
+  margin-left: 50%;
+  transform: translate(-50%);
+  justify-items: center;
+}
+
+#igualdade {
+  height: 280px;
+  margin-left: 221px;
+  margin-right: 100px;
+  position: relative;
+  top: -329px;
+  background-color: tomato;
+  transition: background-color 0.5s ease;
+}
+
+#igualdade:hover {
+  background-color: rgb(215, 65, 38);
+}
+
+#display {
+  margin-top: 20px;
+  height: 50px;
+  width: 287px;
+  background-color: rgb(62, 56, 56);
+  font-size: 30px;
+  color: #e2e0dd;
+  margin-left: 50;
+  text-align: right;
+}
+
+.button_operation {
+  background-color: rgb(43, 172, 43);
+  transition: background-color 0.5s ease;
+}
+
+#button_operation:hover {
+  background-color: greenyellow;
+}

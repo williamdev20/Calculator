@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang=""> <!--Ajeitar o idioma no final-->
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora de Frontend</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Calculadora de Frontend</h1>
+  </header>
+  <main>
+    <section class="teste">
+      <div id="container">
+       <input type="text" id="display" disabled>
+      <div>
+          <button type="button" class="button_operation" onclick="operation(this)">+</button>
+          <button type="button" class="button_operation" onclick="operation(this)">-</button>
+          <button type="button" class="button_operation" onclick="operation(this)">X</button>
+          <button type="button" class="button_operation" onclick="operation(this)">/</button> <br>
+          <button type="button" class="num" onclick="exibir(this)">7</button>
+          <button type="button" class="num" onclick="exibir(this)">8</button>
+          <button type="button" class="num" onclick="exibir(this)">9</button> <br>
+          <button type="button" class="num" onclick="exibir(this)">4</button>
+          <button type="button" class="num" onclick="exibir(this)">5</button>
+          <button type="button" class="num" onclick="exibir(this)">6</button> <br>
+          <button type="button" class="num" onclick="exibir(this)">1</button>
+          <button type="button" class="num" onclick="exibir(this)">2</button>
+          <button type="button" class="num" onclick="exibir(this)">3</button> <br>
+          <button type="button" class="num" onclick="exibir(this)">0</button>
+          <button type="button">.</button>
+          <button type="button" id="clear" onclick="limpar()">AC</button>
+          <button type="button" id="igualdade" onclick="calcular()">=                </button>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+
+</html>
