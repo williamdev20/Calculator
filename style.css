@@ -69,7 +69,7 @@ button:hover {
   text-align: right;
 }
 
-.button_operationP, .button_operationS, .button_operationM, .button_operationD {
+.button_operation {
   background-color: rgb(43, 172, 43);
   transition: background-color 0.5s ease;
 }
